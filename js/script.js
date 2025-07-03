@@ -55,7 +55,7 @@ $(document).ready(function () {
       counterB();
     }
 
-    $("#loketA").text("A-" + loketA.toString().padStart(3, "0"));
+    $("#loketA").html("A-" + loketA.toString().padStart(3, "0"));
     $("#loketB").text("B-" + loketB.toString().padStart(3, "0"));
   });
 })(function ($) {
